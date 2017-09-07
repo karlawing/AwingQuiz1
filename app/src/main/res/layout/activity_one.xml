@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.awing.awingquiz1.ActivityOne">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        />
+
+    <Button
+        android:id="@+id/CSbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="B.S. Computer Science"
+        android:layout_below="@+id/ISbtn"
+        android:layout_alignRight="@+id/ISbtn"
+        android:layout_alignEnd="@+id/ISbtn"
+        android:layout_alignLeft="@+id/ISbtn"
+        android:layout_alignStart="@+id/ISbtn"
+        android:onClick="gotoCS"
+        />
+
+    <Button
+        android:id="@+id/ITbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="137dp"
+        android:text="B.S. Information Technology"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="gotoIT"
+        />
+
+    <Button
+        android:id="@+id/ISbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B.S. Information Systems"
+        android:layout_below="@+id/ITbtn"
+        android:layout_alignLeft="@+id/ITbtn"
+        android:layout_alignStart="@+id/ITbtn"
+        android:layout_marginTop="33dp"
+        android:layout_alignRight="@+id/ITbtn"
+        android:layout_alignEnd="@+id/ITbtn"
+        android:onClick="gotoCS"
+        />
+
+
+</RelativeLayout>

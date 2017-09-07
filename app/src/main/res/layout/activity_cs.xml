@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.awing.awingquiz1.CS">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/iics"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/Homebtn"
+        android:layout_above="@+id/textView7" />
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bachelor of Science in Computer Science"
+        android:textSize="18sp"
+        android:layout_marginBottom="41dp"
+        android:layout_above="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView7" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(4 Years)"
+        android:textSize="18sp"
+        android:layout_above="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="19dp"
+        android:id="@+id/textView8" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Level I accredited by the Philippine Accrediting Association of Schools, Colleges and Universities
+Students under the BS Computer Science program are highly trained for software and system development. The program’s
+main focus is to expose the students to different approaches and styles in developing programs whether they are procedural or the object oriented type of system approach."
+
+        android:layout_above="@+id/Homebtn"
+        android:layout_alignLeft="@+id/Homebtn"
+        android:layout_alignStart="@+id/Homebtn"
+        android:layout_marginBottom="31dp"
+        android:layout_alignRight="@+id/ISbtn"
+        android:layout_alignEnd="@+id/ISbtn"
+        android:id="@+id/textView2" />
+
+
+
+
+
+
+
+    <Button
+        android:id="@+id/Homebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="119dp"
+        android:layout_marginLeft="39dp"
+        android:layout_marginStart="39dp"
+        android:text="Home"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="home"/>
+
+    <Button
+        android:id="@+id/ITbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IT"
+        android:onClick="it"
+        android:layout_alignBaseline="@+id/Homebtn"
+        android:layout_alignBottom="@+id/Homebtn"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/ISbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IS"
+        android:onClick="is"
+        android:layout_alignBaseline="@+id/ITbtn"
+        android:layout_alignBottom="@+id/ITbtn"
+        android:layout_toRightOf="@+id/ITbtn"
+        android:layout_toEndOf="@+id/ITbtn"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp" />
+
+
+</RelativeLayout>

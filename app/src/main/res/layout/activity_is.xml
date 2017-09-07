@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.awing.awingquiz1.IS">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bachelor of Science in Information Systems"
+        android:textSize="18sp"
+        android:layout_marginBottom="40dp"
+        android:layout_above="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView6" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(4 Years)"
+        android:textSize="18sp"
+        android:layout_above="@+id/textView"
+        android:layout_alignRight="@+id/CSITbtn"
+        android:layout_alignEnd="@+id/CSITbtn"
+        android:layout_marginBottom="18dp"
+        android:id="@+id/textView5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Level I accredited by the Philippine Accrediting Association of Schools, Colleges, and Universities
+Students under the BS Information Systems program are trained to handle the managerial side of computer related activities. The focus of the program is effective management of resources – people, money, and computer facilities, especially in areas involving accounting, projections/estimates/feasibility studies, and the like."
+        android:layout_above="@+id/Homebtn"
+        android:layout_marginBottom="38dp"
+        android:layout_alignLeft="@+id/Homebtn"
+        android:layout_alignStart="@+id/Homebtn"
+        android:layout_alignRight="@+id/ITISbtn"
+        android:layout_alignEnd="@+id/ITISbtn"
+        android:id="@+id/textView" />
+
+
+
+
+    <Button
+        android:id="@+id/Homebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="119dp"
+        android:layout_marginLeft="39dp"
+        android:layout_marginStart="39dp"
+        android:text="Home"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="home"/>
+
+    <Button
+        android:id="@+id/CSITbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CS"
+        android:onClick="cs"
+        android:layout_alignBaseline="@+id/Homebtn"
+        android:layout_alignBottom="@+id/Homebtn"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/ITISbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IT"
+        android:onClick="it"
+        android:layout_alignBaseline="@+id/CSITbtn"
+        android:layout_alignBottom="@+id/CSITbtn"
+        android:layout_toRightOf="@+id/CSITbtn"
+        android:layout_toEndOf="@+id/CSITbtn"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/iics"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/Homebtn"
+        android:layout_above="@+id/textView6" />
+
+</RelativeLayout>
+
+

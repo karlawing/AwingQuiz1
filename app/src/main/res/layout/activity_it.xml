@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.awing.awingquiz1.IT">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bachelor of Science in Information Technology"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(4 Years)"
+        android:textSize="18sp"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView4" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Level I accredited by the Philippine Accrediting Association of Schools, Colleges, and Universities
+Under this program, the students are trained to be well versed in the practical and technical know-how of installing/setting-up of computers and computer networks. Special skills taught include troubleshooting and repairing of hardware components."
+        android:layout_above="@+id/Homebtn"
+        android:layout_marginBottom="38dp"
+        android:layout_alignLeft="@+id/Homebtn"
+        android:layout_alignStart="@+id/Homebtn"
+        android:id="@+id/textView"
+        android:layout_alignRight="@+id/ISITbtn"
+        android:layout_alignEnd="@+id/ISITbtn" />
+
+
+
+
+    <Button
+        android:id="@+id/Homebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="119dp"
+        android:layout_marginLeft="39dp"
+        android:layout_marginStart="39dp"
+        android:text="Home"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="home"/>
+
+    <Button
+        android:id="@+id/CSITbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CS"
+        android:onClick="cs"
+        android:layout_alignBaseline="@+id/Homebtn"
+        android:layout_alignBottom="@+id/Homebtn"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/ISITbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IS"
+        android:onClick="is"
+        android:layout_alignBaseline="@+id/CSITbtn"
+        android:layout_alignBottom="@+id/CSITbtn"
+        android:layout_toRightOf="@+id/CSITbtn"
+        android:layout_toEndOf="@+id/CSITbtn"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/Homebtn"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/Homebtn"
+        android:layout_marginTop="86dp"
+        app:srcCompat="@android:color/holo_blue_bright" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/iics"
+        android:layout_above="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp" />
+
+
+</RelativeLayout>
